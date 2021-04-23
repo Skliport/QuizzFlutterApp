@@ -8,7 +8,6 @@ import 'package:quizz_api/enums/difficulty.dart';
 import 'package:quizz_api/repositories/quiz/base_quiz_repository.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:meta/meta.dart';
-import 'package:quizz_api/repositories/quiz/base_quiz_repository.dart';
 
 final dioProvider = Provider<Dio>((ref) => Dio());
 
